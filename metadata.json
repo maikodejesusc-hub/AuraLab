@@ -1,0 +1,6 @@
+{
+  "name": "Aura Lab",
+  "description": "Instale uma experiência interativa diretamente no seu celular Android. Descubra como rodar em tela cheia e converter em APK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

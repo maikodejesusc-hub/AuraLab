@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Deep space galactic background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07080a" />
+      <stop offset="100%" stop-color="#0f111a" />
+    </linearGradient>
+
+    <!-- Gemini Sparkle Aurora gradient (magic violet to bright sky cyan to amber glow) -->
+    <linearGradient id="sparkleGradPrimary" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9b51e0" />
+      <stop offset="30%" stop-color="#4a72ff" />
+      <stop offset="70%" stop-color="#19b5fe" />
+      <stop offset="100%" stop-color="#f5a623" />
+    </linearGradient>
+
+    <!-- Secondary subtle glowing ring -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4a72ff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#4a72ff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="140" fill="url(#bgGrad)" stroke="#1f2937" stroke-width="4" />
+  
+  <!-- Subtle circular aurora ring -->
+  <circle cx="256" cy="256" r="180" fill="url(#glow)" />
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#4a72ff" stroke-width="2" stroke-opacity="0.1" stroke-dasharray="10 15" />
+
+  <!-- The True Google Gemini Sparkle vector shape (Vertical symmetry) -->
+  <!-- Larger core Sparkle -->
+  <path d="M 256,80 C 256,190 190,256 80,256 C 190,256 256,322 256,432 C 256,322 322,256 432,256 C 322,256 256,190 256,80 Z" 
+        fill="url(#sparkleGradPrimary)" />
+
+  <!-- Secondary smaller companion sparkle mimicking the official Gemini AI layout -->
+  <path d="M 390,120 C 390,165 365,190 320,190 C 365,190 390,215 390,260 C 390,215 415,190 460,190 C 415,190 390,165 390,120 Z" 
+        fill="#fbc02d" opacity="0.9" />
+
+  <!-- Delicate inner white highlights for depth -->
+  <circle cx="256" cy="256" r="12" fill="#ffffff" opacity="0.8" />
+  <circle cx="390" cy="190" r="4" fill="#ffffff" opacity="0.9" />
+</svg>

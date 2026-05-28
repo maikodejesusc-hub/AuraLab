@@ -1,0 +1,17 @@
+{
+  "short_name": "AuraLab",
+  "name": "Aura Lab",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#0d0e12",
+  "theme_color": "#4a72ff",
+  "display": "standalone",
+  "orientation": "portrait"
+}
